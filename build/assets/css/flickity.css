@@ -112,6 +112,9 @@ https://flickity.metafizzy.co
     width: 60%;
     height: 60%;
     background-color: none;
+    @media (max-width:800px) {
+      display:none;
+    }
   }
   
   /* ---- page dots ---- */
@@ -125,6 +128,7 @@ https://flickity.metafizzy.co
     list-style: none;
     text-align: left;
     line-height: 1;
+    padding-left: 5%;
   }
   
   .flickity-rtl .flickity-page-dots { direction: rtl; }
