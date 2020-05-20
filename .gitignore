@@ -1,7 +1,8 @@
 
 # Created by https://www.gitignore.io/api/node,sass,macos,firebase
 # Edit at https://www.gitignore.io/?templates=node,sass,macos,firebase
-
+node_modules
+/node_modules
 ### Firebase ###
 .idea
 **/node_modules/*

@@ -22,7 +22,7 @@
 
 const flkty = new Flickity('.Slider', {
     setGallerySize: false,
-    pageDots: false
+    pageDots: false,
   })
   
   const transformer = new FlickityTransformer(flkty, [

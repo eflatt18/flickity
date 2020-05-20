@@ -5,14 +5,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.min.css" />
+    <link rel="stylesheet" href="assets/css/flickity.css">
 </head>
 <body>
-  <h1>hello world</h1>
-
-
-
+  <div class="Slider" data-flickity='{ "cellAlign": "left", "contain": true }'>
+    <div class="Slide">1</div>
+    <div class="Slide">2</div>
+    <div class="Slide">3</div>
+    <div class="Slide">4</div>
+    <div class="Slide">5</div>
+    <div class="Slide">6</div>
+  </div>
 
   
+  <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
+  <script src='https://unpkg.com/flickity-transformer/dist/flickity-transformer.pkgd.min.js'></script>
+  <script src="./script.js"></script>
   <script src="./assets/js/vendors.js"></script>
   <script src="./assets/js/app.js"></script>
 </body>
