@@ -308,7 +308,7 @@ body {
 
 .Slider {
   width: 100vw;
-  height: 100vh; }
+  height: 500px; }
 
 .Slide {
   display: flex;
