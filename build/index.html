@@ -6,10 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="assets/css/main.min.css" />
     <link rel="stylesheet" href="assets/css/flickity.css">
+    <link rel="shortcut icon" href="assets/img/bread.png" type="image/x-icon">
 </head>
 <body>
   <div class="Slider" data-flickity='{ "cellAlign": "left", "contain": true }'>
-    <div class="Slide">1</div>
+
+    <a id="modalTrigger">
+      <div class="Slide">
+        <img src="./assets/img/test.svg" alt="">
+      </div>
+    </a>
+
+    <a id="modalTwo-trigger">
+      <div class="Slide">
+        <img src="./assets/img/test.svg" alt="">
+      </div>
+    </a>
+   
     <div class="Slide">2</div>
     <div class="Slide">3</div>
     <div class="Slide">4</div>
@@ -18,6 +31,23 @@
   </div>
 
   
+
+
+  <div class="twitter">
+    <a href="https://twitter.com/__flatt?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow @__flatt</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+
+<!-- modal 1 -->
+<div id="myModal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <p>Some text in the Modal..</p>
+  </div>
+</div>
+
+
+  
+
   <script src='https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js'></script>
   <script src='https://unpkg.com/flickity-transformer/dist/flickity-transformer.pkgd.min.js'></script>
   <script src="./script.js"></script>

@@ -2,6 +2,10 @@ body{
   background-color: white;
 }
 
+a{
+  text-decoration: none;
+}
+
 .Slider {
   width: 100vw;
   height: 500px;
@@ -25,3 +29,48 @@ body{
 .Slide:nth-child(0n+4) { background: #4CAF50; }
 .Slide:nth-child(0n+5) { background: #2196F3; }
 .Slide:nth-child(0n+6) { background: #4A148C; }
+
+.twitter{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  display: block;
+  // border: 1px solid #888;
+  width: 80%;
+}
+
+/* The Close Button */
+.close {
+  color: black;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
